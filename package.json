@@ -1,0 +1,19 @@
+{
+  "name": "flow-adts",
+  "version": "0.1.0",
+  "description": "Hacking on using ADTs in Flow",
+  "author": "Kevin Robinson",
+  "scripts": {
+    "build": "node_modules/watchify/bin/cmd.js src/main.js -o dist/bundle.js -t babelify"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.3",
+    "lodash": "~2.4.1"
+  },
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "react": "^0.13.0-beta.2",
+    "reactify": "^1.0.0",
+    "watchify": "^2.4.0"
+  }
+}
