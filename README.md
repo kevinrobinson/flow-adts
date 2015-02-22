@@ -1,5 +1,4 @@
-# flow-adts
-## Type checking state in React components with Flow
+# Blog post: Type checking state in React components with Flow
 
 Flow is a static analysis tool for JavaScript. It lets you gradually add type annotations, and will check that you adhere to the type constraints you’ve added. I’ve never used this in production code, but here’s what I learned trying to use this to enforce constraints on a React component’s state. Specifically, I wanted to see if Flow would support encoding algebraic data types in JavaScript and help catch mistakes I made when using them
 
